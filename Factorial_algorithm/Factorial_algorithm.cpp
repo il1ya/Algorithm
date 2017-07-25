@@ -1,3 +1,5 @@
+// Алгоритм нахождения факториала(произведение всех натуральных чисел от 1 до n включительно)
+// 5 * 4 * 3 * 2 * 1 = 120;
 #include <iostream>
 int fact(int x)
 {
@@ -7,6 +9,6 @@ int fact(int x)
 }
 int main()
 {
-    std::cout << fact(10) << std::endl;
+    std::cout << fact(5) << std::endl;
     return 0;
 }
